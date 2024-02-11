@@ -11,7 +11,7 @@
 3. 프로젝트 폴더로 이동   
    ex) cd dowum
 
-4. vs 코드 실행   
+4. vs코드 실행   
    ex) code .   
 
 
