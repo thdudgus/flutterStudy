@@ -2,20 +2,9 @@
 
 2024.01~2024.02  
 ### flutter 프로젝트 생성
-1. cmd창에서 프로젝트를 만들고 싶은 곳으로 이동  
+1. cmd창에서 프로젝트를 만들고 싶은 곳으로 이동 (사전에 Git repsitory 복제)  
    ex) cd Documents
-
-2. flutter 프로젝트 이름을 넣어 생성 명령어 입력   
-   ex) flutter create dowum
-
-3. 프로젝트 폴더로 이동   
-   ex) cd dowum
-
-4. vs코드 실행   
-   ex) code .   
-
-
-``` cmd
+```cmd
 Microsoft Windows [Version 10.0.22621.3007]
 (c) Microsoft Corporation. All rights reserved.
 
@@ -24,7 +13,11 @@ C:\Users\sy020>cd Documents
 C:\Users\sy020\Documents>cd GitHub
 
 C:\Users\sy020\Documents\GitHub>cd DOWUM
+```
 
+2. flutter 프로젝트 이름을 넣어 생성 명령어 입력   
+   ex) flutter create dowum
+```cmd
 C:\Users\sy020\Documents\GitHub\DOWUM>flutter create dowum
 
 ┌─────────────────────────────────────────────────────────┐
@@ -50,7 +43,17 @@ In order to run your application, type:
 Your application code is in dowum\lib\main.dart.
 
 
-C:\Users\sy020\Documents\GitHub\DOWUM>cd DOWUM // dowum인데 잘못 입력함. 근데 알아서 dowum으로 이동되긴 했음.
+C:\Users\sy020\Documents\GitHub\DOWUM>
+```
 
+3. 프로젝트로 이동   
+   ex) cd dowum
+```cmd
+C:\Users\sy020\Documents\GitHub\DOWUM>cd dowum
+```
+
+4. vs코드 실행   
+   ex) code .   
+``` cmd
 C:\Users\sy020\Documents\GitHub\DOWUM\dowum>code .
 ```
