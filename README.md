@@ -61,3 +61,29 @@ C:\Users\sy020\Documents\GitHub\DOWUM>cd dowum
 C:\Users\sy020\Documents\GitHub\DOWUM\dowum>code .
 ```
 <br/>
+
+##
+### Flutter 실행
+안드로이드 기기로 시뮬레이션 돌리기
+1. 개발자 옵션 on
+   <br/>   
+
+2. usb 디버깅 활성화   
+   ueb 디버깅 칸이 아예 회색으로 터치 자체가 비활성화 되어 있다면, '설정 > 보안 및 개인정보 보호 > 보안 위험 자동 차단' 설정을 off 하면 usb 디버깅을 조절할 수 있게 된다.   
+   <br/>   
+
+
+3. vs code에서 device를 해당 기기로 변경한다.   
+   <br/>
+
+4. cmd 창을 열어 안드로이드 폴더로 이동한다.   
+   ```cmd
+   cd C:\Users\sy020\Documents\GitHub\DOWUM\dowum
+   ```   
+   <br/>
+   
+5. flutter 앱 기기 내 실행 명령어 입력한다.     
+   릴리즈 모드로 실행
+   ```cmd
+   flutter run --release
+   ```
