@@ -1,6 +1,6 @@
 # toonflix
 
-A new Flutter project.
+A new Flutter project.   
 노마드 코더님의 강의 맨 처음 시작으로 statelessWidget에 관한 내용을 다루고 있음.
 
 ## Getting Started
